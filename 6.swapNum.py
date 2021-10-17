@@ -17,11 +17,12 @@
 a = int(input("Enter the value of a: "))
 b = int(input("Enter the value of b: "))
 
-a= a+b
-b= a-b
-a= a-b
+a = 5
+b = 10
 
-print("----------------------------")
+c = a
+a = b
+b = c
 
-print("Value of a After swapping is ", a)
-print("Value of b After swapping is ", b)
+print(a)
+print(b)
